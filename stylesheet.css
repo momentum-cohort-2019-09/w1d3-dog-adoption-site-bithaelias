@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+   
+}
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+.header{
+    
+    background-color: RGB(13,62,117); 
+    padding: 25px;
+    border-bottom-color: aqua;
+    border-bottom-width: 3px;
+}
+h2{
+    padding-bottom: 1em;
+}
+.search {
+    margin: 0;
+    
+    background-color:RGB(236,232,234);
+    
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.butoons{
+    padding: 1em;
+}
+.container{
+    display: inline-flex;
+    margin: auto;
+    width: 80%;
+    
+}
+.label{
+font-weight: bold;
+}
+.Dogs {
+   width: 32%;
+
+    
+}
+    h4 {
+        margin: 0;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.personality {
+    
+    display: flex;
+    flex-wrap: wrap;
+width: 100%;
+align-items: baseline;
+justify-content: flex-start;
+margin-bottom: 5%;
+
+
+    }
+    .personality li {
+        display: flex;
+        flex-wrap: wrap;
+        margin:2px;
+        background-color: RGB(128,213,236);
+        border-radius: 15%;
+ }
+
+.images{
+   width: 97%;
+   
+   
+}
+.donate{
+    background: linear-gradient(rgba(93, 86, 170, 0.6),
+    rgba(93, 86, 170, 0.6)),
+     center/cover url("starter_files/images/donate.jpg");
+    padding: 150px;
+}
+
+.volunteer{
+    background: linear-gradient(rgba(93, 86, 170, 0.6),
+    rgba(93, 86, 170, 0.6)),
+     center/cover url("starter_files/images/volunteer.jpg");
+     padding: 150px;
+}
+    
+.location{
+    background: linear-gradient(rgba(93, 86, 170, 0.6),
+    rgba(93, 86, 170, 0.6)),
+     center/cover url("starter_files/images/location.png");
+     padding: 150px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.bottom p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: RGB(236,232,234);
+    font-size: xx-large;
+    font-style: bold;
+}
+
+.main-container{
+    
+    padding: 25px;
+}
